@@ -1,0 +1,88 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;   
+}
+
+.hero {
+    background-color: #1f2937;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px 150px 80px 150px;
+    gap: 80px;
+}
+
+.hero-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    flex-flow: row wrap;
+}
+
+.logo {
+    font-size: 35px;
+    color: #f9faf8;
+    font-family: "Manufacturing Consent", system-ui;
+}
+
+a {
+    text-decoration: none;
+}
+
+.links, .secondary-text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.header-links {
+    display: flex;
+    gap: 10px;
+}
+
+.hero-body {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.text-btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.main-text {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.sign-up-btn {
+    background-color: #3882f6;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+}
+
+.hero-image {
+    flex: 1;
+}
+
+.hero-img {
+    width: 100%;
+    height:auto;
+    min-width: 250px;
+    max-height: 300px;
+}
