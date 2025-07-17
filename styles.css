@@ -32,6 +32,10 @@ body {
     font-family: "Manufacturing Consent", system-ui;
 }
 
+ul {
+    list-style: none;
+}
+
 a {
     text-decoration: none;
 }
@@ -43,7 +47,7 @@ a {
 
 .header-links {
     display: flex;
-    gap: 10px;
+    gap: 20px;
 }
 
 .hero-body {
@@ -83,6 +87,6 @@ a {
 .hero-img {
     width: 100%;
     height:auto;
-    min-width: 250px;
+    min-width: 300px;
     max-height: 300px;
 }
