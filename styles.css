@@ -87,6 +87,45 @@ a {
 .hero-img {
     width: 100%;
     height:auto;
-    min-width: 300px;
+    min-width: 200px;
     max-height: 300px;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 0 80px 0;
+    gap: 40px;
+    align-items: center;
+}
+
+.info-text {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.info-body {
+    display: flex;
+    gap: 30px;
+    padding:  0 100px;
+    flex-flow: row wrap;
+}
+
+.info-item {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 1;
+}
+
+.item-image {
+    width: 100%;
+    height: auto;
+    min-width: 200px;
+}
+
+.item-text {
+    color: #515050;
+    text-align: center;
 }
