@@ -129,3 +129,28 @@ a {
     color: #515050;
     text-align: center;
 }
+
+.quote {
+    background-color: #e5e7eb;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote-header {
+    text-align: justify;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quote-footer {
+    text-align: right;
+}
+
+.quote-signature {
+    font-weight: 600;
+}
